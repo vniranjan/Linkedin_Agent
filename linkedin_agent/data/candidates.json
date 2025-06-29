@@ -1,0 +1,5 @@
+[
+    {"id": 1, "name": "Alice Smith", "skills": ["Python", "Machine Learning"], "experience_years": 5, "location": "NY"},
+    {"id": 2, "name": "Bob Johnson", "skills": ["JavaScript", "React"], "experience_years": 3, "location": "CA"},
+    {"id": 3, "name": "Charlie Lee", "skills": ["Python", "Data Engineering"], "experience_years": 7, "location": "TX"}
+]
