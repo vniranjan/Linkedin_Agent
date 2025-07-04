@@ -17,3 +17,15 @@ python -m linkedin_agent.orchestrator
 ```
 
 The script will prompt for job details, search the sample data, display candidate summaries and show example outreach messages.
+
+### Using an LLM
+
+If you have an OpenAI API key, you can use it to generate more natural summaries and outreach messages. Install the `openai` package and set the `OPENAI_API_KEY` environment variable:
+
+```bash
+pip install openai
+export OPENAI_API_KEY=<your-key>
+python -m linkedin_agent.orchestrator --use-llm
+```
+
+Without the `--use-llm` flag the script falls back to simple rule-based summaries.
